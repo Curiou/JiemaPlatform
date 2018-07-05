@@ -26,9 +26,10 @@ class JiemaPlatform(object):
         self.username = username
         self.password = password
         self.number = number
+        self.num = 1
         self.logIn()
         self.telnum = ["175", "187", "153", "135"]
-        self.num = 1
+        
 
     def logIn(self):
         # 登陆获key
